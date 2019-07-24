@@ -7,7 +7,7 @@ public class GettingStartedTest {
 
     @Test
     public void addFiveTo30() {
-        int result = new GettingStarted().addFive(30);// Sukesh Pagla
+        int result = new GettingStarted().addFive(30);
         Assertions.assertEquals(35,result);
     }
 
